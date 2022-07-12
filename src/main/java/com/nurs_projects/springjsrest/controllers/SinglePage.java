@@ -26,6 +26,6 @@ public class SinglePage {
     @GetMapping()
     public String getSinglePage(@AuthenticationPrincipal User authUser, Model model) {
         model.addAttribute("authUser", authUser);
-        return "single-page";
+        return "just-page";
     }
 }

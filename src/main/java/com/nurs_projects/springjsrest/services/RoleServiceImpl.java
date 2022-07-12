@@ -43,6 +43,6 @@ public class RoleServiceImpl implements RoleService{
     @Override
     @Transactional
     public void deleteRole(Long id) {
-        roleDAO.deleteRole(id);
+//        roleDAO.deleteRole(id);
     }
 }
